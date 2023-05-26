@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(226, 43%, 10%);
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  border: 1px solid white;
+  width: 1110px;
+  height: 530px;
+  gap: 40px;
+}

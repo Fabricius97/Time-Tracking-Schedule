@@ -1,0 +1,59 @@
+.userComponent {
+  max-width: 255px;
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.userContainer {
+  height: 354px;
+  background-color: hsl(246, 80%, 60%);
+  display: flex;
+  border-radius: 20px;
+}
+
+.userContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.userImage {
+  height: 84px;
+  width: 84px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.userContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.dailyWeeklyMonthly {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 164px;
+  padding: 20px;
+}
+
+.dailyWeeklyMonthly button {
+  background-color: transparent;
+  color: hsl(235, 45%, 61%);
+  border: transparent;
+  font-weight: bold;
+}
+
+.dailyWeeklyMonthly button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+button.button-selected {
+  color: white;
+}

@@ -1,0 +1,24 @@
+.timeTrackingComponent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workCard {
+  width: 245px;
+  height: 245px;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: hsl(15, 100%, 70%);
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.workImg {
+  width: 79px;
+  height: 79px;
+  top: -8px;
+  position: absolute;
+}
