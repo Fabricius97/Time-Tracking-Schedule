@@ -1,14 +1,8 @@
 import React from "react";
 import "./UserComponent.css";
 import UserImage from "../../images/image-jeremy.png";
-import { useState } from "react";
 
-const UserComponent = () => {
-  const [selectedButton, setSelectedButton] = useState(null);
-
-  const handleClick = (buttonId) => {
-    setSelectedButton(buttonId);
-  };
+const UserComponent = ({ selectedButton, handleClick }) => {
   return (
     <div className="userComponent">
       <div className="userContainer">

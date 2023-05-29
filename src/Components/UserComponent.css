@@ -1,6 +1,5 @@
 .userComponent {
-  max-width: 255px;
-  width: 100%;
+  min-width: 255px;
   display: flex;
   border-radius: 20px;
   flex-direction: column;

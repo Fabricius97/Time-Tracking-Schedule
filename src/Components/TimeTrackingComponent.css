@@ -1,24 +1,32 @@
 .timeTrackingComponent {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+  gap: 40px;
 }
 
-.workCard {
+.CardContainer {
   width: 245px;
   height: 245px;
   display: flex;
-  border: 1px solid white;
   border-radius: 20px;
-  background-color: hsl(15, 100%, 70%);
   justify-content: flex-end;
   position: relative;
   overflow: hidden;
-  padding: 20px;
+  align-items: flex-end;
 }
 
-.workImg {
+.cardImg {
   width: 79px;
   height: 79px;
+  right: 20px;
   top: -8px;
   position: absolute;
+}
+
+@media (max-width: 1072px) {
+  .timeTrackingComponent {
+    justify-content: center;
+  }
 }
