@@ -1,13 +1,13 @@
 import React from "react";
 import "./UserComponent.css";
-import UserImage from "../../images/image-jeremy.png";
+import userimage from "../../images/image-jeremy.png";
 
 const UserComponent = ({ selectedButton, handleClick }) => {
   return (
     <div className="userComponent">
       <div className="userContainer">
         <div className="userContent">
-          <img src={UserImage} alt="UserImage" className="userImage" />
+          <img src={userimage} alt="userimage" className="userimage" />
           <div className="userText">
             <span style={{ color: "rgb(190, 190, 190)" }}>Report for</span>
             <h1 style={{ fontWeight: "lighter" }}>Jeremy Robson</h1>

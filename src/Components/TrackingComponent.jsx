@@ -1,5 +1,5 @@
 import React from "react";
-import threeDots from "../../images/icon-ellipsis.svg";
+import eillipsis from "../../images/icon-ellipsis.svg";
 import "./TrackingComponent.css";
 
 const TrackingComponent = ({ title, hours, previousHour, previousText }) => {
@@ -7,8 +7,8 @@ const TrackingComponent = ({ title, hours, previousHour, previousText }) => {
     <div className="trackingContainer">
       <div className="title">
         <div className="cardTitle">{title}</div>
-        <button className="threeDotsButton">
-          <img src={threeDots} alt="" />
+        <button className="eillipsisButton">
+          <img src={eillipsis} alt="" />
         </button>
       </div>
       <div className="hourContent">

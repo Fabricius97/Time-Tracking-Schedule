@@ -17,19 +17,14 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
+  gap: 40px;
 }
 
-.userImage {
+.userimage {
   height: 84px;
   width: 84px;
   border: 2px solid white;
   border-radius: 50%;
-}
-
-.userContent {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
 }
 
 .dailyWeeklyMonthly {
@@ -55,4 +50,34 @@
 
 button.button-selected {
   color: white;
+}
+
+@media (max-width: 1072px) {
+  .userContainer {
+    height: 110px;
+  }
+
+  .userContent {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .userContent span {
+    font-size: 12px;
+  }
+
+  .userContent h1 {
+    font-size: 18px;
+  }
+
+  .userimage {
+    height: 60px;
+    width: 60px;
+  }
+
+  .dailyWeeklyMonthly {
+    flex-direction: row;
+    height: 60px;
+  }
 }

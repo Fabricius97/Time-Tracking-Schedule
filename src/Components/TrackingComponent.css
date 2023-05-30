@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 
-.threeDotsButton {
+.eillipsisButton {
   background-color: transparent;
   border: transparent;
 }
@@ -36,4 +36,33 @@
 .hourContent span {
   color: rgb(190, 190, 190);
   font-size: 14px;
+}
+
+.trackingContainer:hover {
+  background-color: hsl(236, 40%, 28%);
+  cursor: pointer;
+}
+
+.eillipsisButton:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1072px) {
+  .trackingContainer {
+    gap: 10px;
+  }
+
+  .hourContent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hourContent h1 {
+    font-size: 25px;
+  }
+
+  .hourContent span {
+    font-size: 11px;
+  }
 }
