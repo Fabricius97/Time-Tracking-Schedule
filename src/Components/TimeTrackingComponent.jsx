@@ -1,6 +1,6 @@
 import React from "react";
 import TimeFrameCardComponent from "./TimeFrameCardComponent";
-import "./timeTrackingComponent.css";
+import "./TimeTrackingComponent.css";
 import work from "./../../images/icon-work.svg";
 import play from "./../../images/icon-play.svg";
 import study from "./../../images/icon-study.svg";
@@ -49,7 +49,7 @@ const TimeTrackingComponent = ({
       {data.map((data) => (
         <div
           key={data.title}
-          className={`${data.title.toLowerCase()} CardContainer`}
+          className={`${data.title.toLowerCase()} cardContainer`}
           style={{ backgroundColor: data.background }}
         >
           <img src={data.image} alt="" className="cardImg" />
