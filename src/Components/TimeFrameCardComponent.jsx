@@ -1,8 +1,13 @@
 import React from "react";
 import eillipsis from "../../images/icon-ellipsis.svg";
-import "./TrackingComponent.css";
+import "./TimeFrameCardComponent.css";
 
-const TrackingComponent = ({ title, hours, previousHour, previousText }) => {
+const TimeFrameCardComponent = ({
+  title,
+  hours,
+  previousHour,
+  previousText,
+}) => {
   return (
     <div className="trackingContainer">
       <div className="title">
@@ -21,4 +26,4 @@ const TrackingComponent = ({ title, hours, previousHour, previousText }) => {
   );
 };
 
-export default TrackingComponent;
+export default TimeFrameCardComponent;

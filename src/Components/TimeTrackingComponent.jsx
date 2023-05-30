@@ -1,5 +1,5 @@
 import React from "react";
-import TrackingComponent from "./TrackingComponent";
+import TimeFrameCardComponent from "./TimeFrameCardComponent";
 import "./timeTrackingComponent.css";
 import work from "./../../images/icon-work.svg";
 import play from "./../../images/icon-play.svg";
@@ -53,7 +53,7 @@ const TimeTrackingComponent = ({
           style={{ backgroundColor: data.background }}
         >
           <img src={data.image} alt="" className="cardImg" />
-          <TrackingComponent
+          <TimeFrameCardComponent
             title={data.title}
             hours={data.hours}
             previousHour={data.previousHours}
